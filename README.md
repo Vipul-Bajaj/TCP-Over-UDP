@@ -23,14 +23,14 @@ There are 3 versions of the Sender and Receiver,each with increasing levels of d
 Sender and Receiver 2 uses Stop and Wait.
 Sender and Receiver 3 uses Go-Back-N.*
 
-##Run the receiver side:
+## Run the receiver side:
 
 ```
 $java Receiver3 <Port> <Filename>
 ```
-where <port>is the port number used for receiving from the sender and <Filename>is the name or filepath used to store the file on local disk.
+where <port> is the port number used for receiving from the sender and <Filename>is the name or filepath used to store the file on local disk.
  
-##Run the sender side:
+## Run the sender side:
 
 ```
 $ java Sender3 <IPaddress> <Port> <Filename>
