@@ -17,24 +17,31 @@ Group Details:
 ------------------------------------
 Usage :
 ------------------------------------
-There are 3 versions of the Sender and Receiver,each with increasing levels of data reliability and throughput.
+There are 2 versions of the Sender and Receiver,each with increasing levels of data reliability and throughput.
 
-*Sender and Receiver 1 has completely unreliable data transfer.*
+*Sender and Receiver 1 uses Stop and Wait ARQ Protocol.*
 
-*Sender and Receiver 2 uses Stop and Wait.*
+*Sender and Receiver 2 uses Go-Back-N ARQ Protocol.*
 
-*Sender and Receiver 3 uses Go-Back-N.*
 
 ## Run the receiver side:
 
 ```
-$java Receiver3 <Port> <Filename>
+$javac <Name of the Receiver File>.java
+
+$java <Name of the Receiver File>
 ```
-where 'port' is the port number used for receiving from the sender and 'Filename' is the name or filepath used to store the file on local disk.
+where 'Name of the Receiver File' is the name of the receiver file of the protocol being used.
+
+When the program is ran it will ask the user to enter the port number which is to be used and also the filename for storing the file which the receiver will receive. 
  
 ## Run the sender side:
 
 ```
-$ java Sender3 <IPaddress> <Port> <Filename>
+$javac <Name of the Sender File>.java
+
+$java <Name of the Sender File>
 ```
-where 'IPaddress' is the address at which to send to, 'Port' is the port number used by the corresponding receiver and 'Filename' is the file or filepath of the file to transfer from local disk.
+where 'Name of the Sender File' is the name of the sender file of the protocol being used.
+
+When the program is ran it will ask the user to enter the IpAddress  at which to send to , the port number which is to be used and also the filename of the file to send.
