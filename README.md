@@ -26,6 +26,8 @@ There are 2 versions of the Sender and Receiver,each with increasing levels of d
 
 ## Run the receiver side:
 
+For running the receiver on Windows and Linux issue the following command on the command line or the linux terminal.
+
 ```
 $javac <Name of the Receiver File>.java
 
@@ -36,6 +38,8 @@ where 'Name of the Receiver File' is the name of the receiver file of the protoc
 When the program is ran it will ask the user to enter the port number which is to be used and also the filename for storing the file which the receiver will receive. 
  
 ## Run the sender side:
+
+For running the receiver on Windows and Linux issue the following command on the command line or the linux terminal.
 
 ```
 $javac <Name of the Sender File>.java
