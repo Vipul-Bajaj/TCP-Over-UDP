@@ -39,7 +39,7 @@ When the program is ran it will ask the user to enter the port number which is t
  
 ## Run the sender side:
 
-For running the receiver on Windows and Linux issue the following command on the command line or the linux terminal.
+For running the sender on Windows and Linux issue the following command on the command line or the linux terminal.
 
 ```
 $javac <Name of the Sender File>.java
