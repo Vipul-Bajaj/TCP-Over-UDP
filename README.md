@@ -4,15 +4,13 @@ Project Title - TCP over UDP
 In this project, we have tried to implement the functionality of Transmission Control Protocol(TCP) using User Datagram Protocol(UDP).
 We have simulated features of TCP like flow control, message reliability, congestion control etc. using UDP.
 
-------------------------------------
 Contributors:
 ------------------------------------
  * Shubham Gupta
  * Aishwarya Srivastava
  * Ekta Agrawal
  * Vipul Bajaj
- 
-------------------------------------
+
 Usage :
 ------------------------------------
 There are 2 versions of the Sender and Receiver,each with increasing levels of data reliability and throughput.
